@@ -11,6 +11,7 @@ public class homeWork2 {
         System.out.print(getStringBuilder(scanner));
 
     }
+
     private static String getString(Scanner sc){
         result = "";
         while (true) {
@@ -23,6 +24,7 @@ public class homeWork2 {
         }
         return result;
     }
+
     private static String getStringBuilder(Scanner sc){
         StringBuilder str = new StringBuilder();
         String s = "";
