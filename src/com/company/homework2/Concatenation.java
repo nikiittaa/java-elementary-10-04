@@ -1,19 +1,19 @@
-package com.company;
+package com.company.homework2;
 
 import java.util.Scanner;
 
-public class homeWork2 {
-    static private String result;
+public class Concatenation {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print(getString(scanner));
+        System.out.println();
         System.out.print(getStringBuilder(scanner));
 
     }
 
     private static String getString(Scanner sc){
-        result = "";
+        String result = "";
         while (true) {
             String s = sc.nextLine();
             if (s.equals("хватит")) {
@@ -27,7 +27,7 @@ public class homeWork2 {
 
     private static String getStringBuilder(Scanner sc){
         StringBuilder str = new StringBuilder();
-        String s = "";
+        String s;
         while (true) {
             s = sc.nextLine();
             if (s.equals("хватит")) {
